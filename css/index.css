@@ -80,4 +80,9 @@ li a.active {
   background-color: #4CAF50;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
