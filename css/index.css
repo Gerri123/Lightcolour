@@ -1,6 +1,4 @@
-html,body{
-  height:80%;
-}
+
 body{
   text-align:center;
 }
@@ -46,3 +44,40 @@ button:hover:before,button:hover:after{
   width:100%;
   transition:800ms ease all;
 }
+
+body{
+  background-image:url(../img/background.jpg);
+  background-attachment:fixed
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+
